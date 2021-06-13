@@ -5,7 +5,7 @@
 }
 .container{
     max-width: 300px;
-    height: 30vh;
+    height: 50vh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -19,4 +19,12 @@
     border-radius: 5px;
     padding-left: 10px;
     margin-bottom: 10px;
+}
+.boton{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: royalblue;
 }

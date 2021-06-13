@@ -21,8 +21,7 @@ function add(){
     r.innerHTML = "<h1>"+n.value+"</h1>"; 
 }
 var res = 0;
-function operacion(){
-    
+function operacion(){    
     var n1 = document.getElementById("n1");
     var n2 = document.getElementById("n2");
     var op = document.getElementById("operacion").value;  
@@ -44,4 +43,18 @@ function operacion(){
                 break;
     }
 
+}
+function agregar(){
+    let nom = document.getElementById("nombres").value;
+    let correo = document.getElementById("correo").value;
+    let ep = document.getElementById("escuela");
+    let escuela = ep.options[ep.selectedIndex].text;
+    let tel = document.getElementById("telefono").value;
+    let fec = document.getElementById("fecnac").value;
+    document.getElementById("resultado").innerHTML=
+    "<ul><li>"+nom+"</li><li>"+
+    correo+"</li><li>"+escuela+"</li><li>"+
+    tel+"</li><li>"+fec+"</li></ul>";
+    let nom2 = document.querySelector("#nombres"); 
+    console.log(nom2.value);
 }
