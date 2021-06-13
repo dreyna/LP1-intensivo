@@ -1,0 +1,48 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+.container{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(171, 230, 11);
+}
+div img{
+    position: relative;
+    top: 2em;
+
+}
+.caja{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    background-color: red;
+}
+.cajita{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+}
+.cubo{
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    margin:5px;
+    float: left;
+}
+.texto{
+    font-size: 8px;
+    clear: both;
+    float: left;
+}
+.negrita{
+    color: brown;
+    float: right;    
+}

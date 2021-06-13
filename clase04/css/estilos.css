@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 300px;
+    height: 30vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+.caja{
+    max-width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}

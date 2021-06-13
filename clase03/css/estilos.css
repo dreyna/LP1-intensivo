@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
