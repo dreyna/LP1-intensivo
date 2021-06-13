@@ -13,8 +13,12 @@ function calcular(){
         r.value = Math.sqrt(n.value);
     }    
 }
+//agregar un texto
+
 function add(){
     var n = document.getElementById("texto");
     var r = document.getElementById("resultado"); 
     r.innerHTML = "<h1>"+n.value+"</h1>"; 
 }
+var x ;
+console.log(typeof x);
