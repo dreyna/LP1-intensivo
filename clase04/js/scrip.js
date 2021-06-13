@@ -20,5 +20,28 @@ function add(){
     var r = document.getElementById("resultado"); 
     r.innerHTML = "<h1>"+n.value+"</h1>"; 
 }
-var x ;
-console.log(typeof x);
+var res = 0;
+function operacion(){
+    
+    var n1 = document.getElementById("n1");
+    var n2 = document.getElementById("n2");
+    var op = document.getElementById("operacion").value;  
+    switch(op){        
+        case '1': res = parseInt(n1.value) + parseInt(n2.value);
+                document.getElementById("resultado").innerHTML=res;
+                break;
+        case '2':
+                res = parseInt(n1.value) - parseInt(n2.value);
+                document.getElementById("resultado").innerHTML=res;
+                break;
+        case '3':
+                res = parseInt(n1.value) * parseInt(n2.value);
+                document.getElementById("resultado").innerHTML=res;
+                break;
+        case '4':
+                res = parseFloat(n1.value) / parseFloat(n2.value);
+                document.getElementById("resultado").innerHTML=res;
+                break;
+    }
+
+}
