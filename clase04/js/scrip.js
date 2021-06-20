@@ -51,6 +51,7 @@ function agregar(){
     let escuela = ep.options[ep.selectedIndex].text;
     let tel = document.getElementById("telefono").value;
     let fec = document.getElementById("fecnac").value;
+    
     document.getElementById("resultado").innerHTML=
     "<ul><li>"+nom+"</li><li>"+
     correo+"</li><li>"+escuela+"</li><li>"+
